@@ -1,0 +1,95 @@
+#!/bin/bash
+
+# ========== Usage ==========
+# Adjust these variables to configure ControlNet training
+# Run with bash train_script.sh
+# =================================
+
+#  Model and output paths
+MODEL_DIR="${MODEL_DIR:-runwayml/stable-diffusion-v1-5}"
+OUTPUT_DIR="${OUTPUT_DIR:-./outputs/controlnet}"
+
+#  Dataset and column settings
+DATASET_NAME="${DATASET_NAME:-qiuweihao/laion_4_to_3_deepgaze}"
+LOCAL_DATASET_DIR="${LOCAL_DATASET_DIR:-./data/laion_4_to_3_deepgaze}"
+CONDITIONING_COLUMN="deepgaze_feature_mean"
+IMAGE_COLUMN="image_resized"
+CAPTION_COLUMN="caption"
+
+#  Training parameters
+RESOLUTION=512
+LEARNING_RATE=4e-6
+LR_SCHEDULER="cosine"
+BATCH_SIZE=8
+MAX_TRAIN_STEPS=50000
+VALIDATION_STEPS=500
+CHECKPOINT_STEPS=2500
+RESUME=""  # e.g. checkpoint-10000 or leave empty
+
+#  Validation images and prompts
+VALIDATION_IMAGES=(
+    "./validation_images/NC-21-condition.png"
+    "./validation_images/C-news-3-alter-condition.png"
+    "./validation_images/C-evidence-3-condition.png"
+)
+VALIDATION_PROMPTS=(
+    "a group of people jumping on a beach"
+    "a donkey pulling a cart"
+    "a man is putting a bag of luggage"
+)
+
+# ========== Build the command ==========
+CMD=(
+    accelerate launch train_controlnet.py
+    --pretrained_model_name_or_path "$MODEL_DIR"
+    --output_dir "$OUTPUT_DIR"
+    --dataset_name "$DATASET_NAME"
+    # --train_data_dir "$LOCAL_DATASET_DIR"
+    --conditioning_image_column "$CONDITIONING_COLUMN"
+    --image_column "$IMAGE_COLUMN"
+    --caption_column "$CAPTION_COLUMN"
+    --resolution $RESOLUTION
+    --learning_rate $LEARNING_RATE
+    --lr_scheduler "$LR_SCHEDULER"
+    --lr_warmup_steps 500
+    --train_batch_size $BATCH_SIZE
+    --gradient_accumulation_steps 1
+    --gradient_checkpointing
+    --mixed_precision "fp16"
+    --validation_image
+)
+# if [[ -n "$DATASET_NAME" ]]; then
+#     CMD+=(--dataset_name "$DATASET_NAME")
+# else
+#     CMD+=(--train_data_dir "$LOCAL_DATASET_DIR")
+# fi
+
+# Append validation images
+for img in "${VALIDATION_IMAGES[@]}"; do
+    CMD+=("$img")
+done
+
+CMD+=(--validation_prompt)
+for prompt in "${VALIDATION_PROMPTS[@]}"; do
+    CMD+=("$prompt")
+done
+
+CMD+=(
+    --max_train_steps $MAX_TRAIN_STEPS
+    --validation_steps $VALIDATION_STEPS
+    --checkpointing_steps $CHECKPOINT_STEPS
+    --report_to tensorboard
+)
+
+# Append a resume checkpoint when requested
+if [[ -n "$RESUME" ]]; then
+    CMD+=(--resume_from_checkpoint "$RESUME")
+fi
+
+# ========== Run the command ==========
+echo " Command: "
+echo "${CMD[@]}"
+echo "=============================="
+
+"${CMD[@]}"
+

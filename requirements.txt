@@ -1,0 +1,23 @@
+numpy>=1.26,<3
+Pillow>=10,<13
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+pandas>=2.1,<3
+torch>=2.2,<3
+torchvision>=0.17,<1
+datasets>=3,<4
+pyarrow>=14
+transformers>=4.39,<5
+accelerate>=0.30,<2
+huggingface-hub>=0.24,<1
+streamlit>=1.32,<2
+streamlit-drawable-canvas>=0.9,<1
+Flask>=3,<4
+requests>=2.31,<3
+PyYAML>=6,<7
+boltons>=23
+ftfy>=6
+tensorboard>=2.16
+safetensors>=0.4
+tqdm>=4.66
+diffusers @ git+https://github.com/huggingface/diffusers.git@dcd77ce22273708294b7b9c2f7f0a4e45d7a9f33

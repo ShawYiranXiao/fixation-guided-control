@@ -1,0 +1,691 @@
+{
+  "archive_date": "2026-10-09",
+  "publication_prepared_on": "2026-10-11",
+  "note": "Translated and cleaned publication copies. Original archive and lab workspaces are unchanged.",
+  "files": [
+    {
+      "archive_path": "code/comfyui-node/deepgaze_node.py",
+      "public_path": "code/comfyui-node/deepgaze_node.py",
+      "original_sha256": "8f04cac69bb3e60ae15c93a3d69d91bc5b9a92d94f7410ea030973d4b250e24e",
+      "release_sha256": "8ade50fc8b825a25d238c37ea7823f4dd0b4ea80ddd5c6aafede5894ef7d4e6a"
+    },
+    {
+      "archive_path": "code/controlnet-training/LAION-dataset/download_img2dataset.sh",
+      "public_path": "code/controlnet-training/LAION-dataset/download_img2dataset.sh",
+      "original_sha256": "4e94ea982c2924b46c34f20d28bb6ef2c2b651c6cd27bb420e3edcd62c5043f4",
+      "release_sha256": "d890d56af5dc1321610768006d9ff444dc3933ae9a340060c5413b57c8a395a6"
+    },
+    {
+      "archive_path": "code/controlnet-training/LAION-dataset/download_laion.py",
+      "public_path": "code/controlnet-training/LAION-dataset/download_laion.py",
+      "original_sha256": "f55eaca0c858bd2208dbe76a763650c2ca4adba63110a764ebe4de67c3761565",
+      "release_sha256": "56abca27e2a049319894c0e73545402efeb9babca564af4b543622cc27e67724"
+    },
+    {
+      "archive_path": "code/controlnet-training/dataset_cut.py",
+      "public_path": "code/controlnet-training/dataset_cut.py",
+      "original_sha256": "acdb9f3500949370e643aed0a3616c8bd4c6cf3c6c4e7384aaad71a26303ff7c",
+      "release_sha256": "704e182712098d942c6fcc5096fb103711dad770a0444dceb184c897d00b3a30"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/inference_controlnet.py",
+      "public_path": "code/controlnet-training/inference_controlnet.py",
+      "original_sha256": "6d9b7cc57ce2152765b18de958c19d67842171182716cf648699fce6a009f45a",
+      "release_sha256": "a1da5aea81c9a82c2ffc1e0507b424b678e3c59ab7c8713a45fa1e5ca3ab58a8"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/requirements.txt",
+      "public_path": "code/controlnet-training/requirements.txt",
+      "original_sha256": "7e009fc9bc730e591c3e38e5550148c469fd65b1d9bca7f9f0be266d2f1049d8",
+      "release_sha256": "7e009fc9bc730e591c3e38e5550148c469fd65b1d9bca7f9f0be266d2f1049d8"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/streamlit_inference_model.py",
+      "public_path": "code/controlnet-training/streamlit_inference_model.py",
+      "original_sha256": "6ea80a4dc4164c4d35bc1e086a6134db511fe5d39fd6c84e1b3273a401cf1274",
+      "release_sha256": "68810c55443e6a77c3398dd9380e3aa772a7f0afa25763522c4d434831bdfb1d"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/streamlit_train.py",
+      "public_path": "code/controlnet-training/streamlit_train.py",
+      "original_sha256": "7881f5dc205e677cd707bed0c43e38a0019e9f58d42c539fe6fd576f847e9cb3",
+      "release_sha256": "89df7aa338ee89abbb4dbc6ccf3515f32d410ee43e76bcffad7f2e650740d0ad"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/train_controlnet.py",
+      "public_path": "code/controlnet-training/train_controlnet.py",
+      "original_sha256": "6705546761b3c02516bc451a811654e32105922a9236df2411cdb3af1950ab28",
+      "release_sha256": "f033f60b6770528ef7038ee4946b02ea5ba3afebeb3b7d4c4347cd32248e4a2c"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/train_script.sh",
+      "public_path": "code/controlnet-training/train_script.sh",
+      "original_sha256": "4b7867e0cf4274abef979541580482c691120a7d780342fc213e8de31f527c1d",
+      "release_sha256": "56e8362a85d356c7289fac3120dd3227fcb814300b39975397f7596f36d5d29d"
+    },
+    {
+      "archive_path": "code/controlnet-training/diffusers/examples/controlnet/train_script.sh.4_to_3_v1",
+      "public_path": "code/controlnet-training/train_script.sh.4_to_3_v1",
+      "original_sha256": "b19d5ffca1dc54a5777cfeee5d7a632a4970d662c619b6b1bbb0f48817986aed",
+      "release_sha256": "1bdcd145e79ac90f7f731ecb31b471e2e8ddb775cf538f1c3322139481f2a317"
+    },
+    {
+      "archive_path": "code/controlnet-training/scandataset.py",
+      "public_path": "code/controlnet-training/scandataset.py",
+      "original_sha256": "633355b0bb698e15ba58c2cadb291d1e53b4c7902d4fe58f0d7d8f38ad6b36e9",
+      "release_sha256": "b0bbdc97ed175af4eef8429dba48d6f91ceeeeee45ebb2e4352dbffe2120af18"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/combine_parquet.py",
+      "public_path": "code/hfdatasetmaker-local/combine_parquet.py",
+      "original_sha256": "0df609d2f882285a9d9855fdd38698b8967cf78f9f1f20102877104723fa48ef",
+      "release_sha256": "254552cf57283f8cfaaa782d015ca00783c8620f20e229f8a7f48f04dc5bb3c3"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/dataset_download.py",
+      "public_path": "code/hfdatasetmaker-local/dataset_download.py",
+      "original_sha256": "91d46c7a056de79e156a0e7c66f66ae545b34a6e97839fdafb1956cf6bc79e60",
+      "release_sha256": "3853b5b9186d823fb0f5a0a6f7b10079c695fb122caa553e1a22a2f297872fcd"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/generate_comparison_grid.py",
+      "public_path": "code/hfdatasetmaker-local/generate_comparison_grid.py",
+      "original_sha256": "5d3ab16843b409d11a01d47940581ba193b7d6fc3a82fcf2302265821e1d46af",
+      "release_sha256": "442c0a0ab8c0c05d52466020386427dbc12e6d8e7639ca7dd9edef88c2bb5ed3"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/generate_metadata.py",
+      "public_path": "code/hfdatasetmaker-local/generate_metadata.py",
+      "original_sha256": "3631cfbe60df35fd41486032ec6fcc53203c4e9437c6edb40d6c64123c467e28",
+      "release_sha256": "e4d390e2509ecd1eaef2e62de62088940d51139aa5f5a801b312ed5c4fc94532"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/generate_npz_all.py",
+      "public_path": "code/hfdatasetmaker-local/generate_npz_all.py",
+      "original_sha256": "586ae28fa68c4c4b7501004a6f41b5efeb40759d54b1806de30b007b8b0605d4",
+      "release_sha256": "d1918e5154957fe1c853af64939ffe99f0c9872e290175ec1566455f823a44ac"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/image_classification.py",
+      "public_path": "code/hfdatasetmaker-local/image_classification.py",
+      "original_sha256": "ebe293089ce121ed5b4fa09e0abc7f469dd39bfd59069703b45f4a589eb3b28f",
+      "release_sha256": "f7d33954615af424dad3402984065828a0a0aa1836c02faa8a8627b8c02b61cf"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/main.py",
+      "public_path": "code/hfdatasetmaker-local/main.py",
+      "original_sha256": "e06d9e1ca7036bc1a266c4827ddfdae2efb2b3a9bc355c9b883ca729a01d467a",
+      "release_sha256": "77a8851b137be7fb6040667099c9784ebce2311dc13cd4f2f325cd07e8925b48"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/main_playground.py",
+      "public_path": "code/hfdatasetmaker-local/main_playground.py",
+      "original_sha256": "3007f0057e90c744151102f17743703aa3b21446e1c17abc176fb8ebcf0090f7",
+      "release_sha256": "6341fdc05e0ab79f467d7be1185b7282e376cfdb977312476d0acf3d1c2ca2ef"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/process_dataset.py",
+      "public_path": "code/hfdatasetmaker-local/process_dataset.py",
+      "original_sha256": "b38b91d8039abf4e78deec9ee9311619f7cbf7f1c0106738022363661accd2fe",
+      "release_sha256": "65afbb78a14482dd7f78ac5b00d3d2c68c91dc7dba851e7983338bdc3d93ecf9"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/process_pipeline.py",
+      "public_path": "code/hfdatasetmaker-local/process_pipeline.py",
+      "original_sha256": "388440dbb38de5b83f5334a5264ffd3a202fd2e4955106529f8156ce20cab113",
+      "release_sha256": "b2bb4b28fc084371bd988f7590d19d91ae0ae0f3fa548db82411098a821a577a"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/processors/__init__.py",
+      "public_path": "code/hfdatasetmaker-local/processors/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "058625348442880551411a28b6ad57da498f1e6edf340c3827b4a542ab62664c"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/processors/deepgaze_feature.py",
+      "public_path": "code/hfdatasetmaker-local/processors/deepgaze_feature.py",
+      "original_sha256": "a53256f1bcba33ab0c429b5d548345ed301db62aa7b022f8f3179f7e82594218",
+      "release_sha256": "822b6ac097bd9b5a47e7398f72e57caf9920c9f4bf4bc1a39f620a7e079b54d6"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/processors/encode_image.py",
+      "public_path": "code/hfdatasetmaker-local/processors/encode_image.py",
+      "original_sha256": "5190b46aac225d64663ae46bfc056777eb4c670e670f2eb2a7e68c071b1405e6",
+      "release_sha256": "2cdbe6702a958b084336c50a45affd603138fdc5f198684358c06d3a7ce1d675"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/processors/generate_caption.py",
+      "public_path": "code/hfdatasetmaker-local/processors/generate_caption.py",
+      "original_sha256": "6d23e6aa26950eb5f288e46934a1ff028e9bdc699894971d040a479e50e5a894",
+      "release_sha256": "253e137a96d5d14ae26bacf0415542a9161269f6771655d344508ec5e9f0dca1"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/processors/load_image.py",
+      "public_path": "code/hfdatasetmaker-local/processors/load_image.py",
+      "original_sha256": "93714b904c57b1d6848b42298f49af2a085b6d0a9edecbcc71fb0e3ffa35b3f6",
+      "release_sha256": "6d4901863fbd6a94fba18cf8fa5c3070ae706f2c1161e92da6f14e98523ef4c7"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/processors/resize_image.py",
+      "public_path": "code/hfdatasetmaker-local/processors/resize_image.py",
+      "original_sha256": "cb10e74b03bc02e27981b2758d8fa0f6b6ae6d14c656d26db26305b37ebe8d89",
+      "release_sha256": "796fac4e679600c40489fd82a36806efd80dafe2e2c871c51ffdd97b7be97732"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/test_fusion.py",
+      "public_path": "code/hfdatasetmaker-local/test_fusion.py",
+      "original_sha256": "e6138d5aa90e921efa3dce92489f40dff59c0f19bed2919632499c52f8ed24a6",
+      "release_sha256": "cfdc2f6231b239b26b31a1e393312ce2097e256000fdbbcb0014942ebd79e653"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/upload_dataset.py",
+      "public_path": "code/hfdatasetmaker-local/upload_dataset.py",
+      "original_sha256": "6dd834cf52f9c1791017e4783db93f31023bed390bd57aa061b6fb6c19b3e6cf",
+      "release_sha256": "34e46c8ee9117281dcca1774cc5af4e0cd048484cf44fd1602d2ce884245ce82"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-local/visualize_dataset.py",
+      "public_path": "code/hfdatasetmaker-local/visualize_dataset.py",
+      "original_sha256": "e8f21871e5b5e7ce6c2cbb0a66bf809c445fa441797cd2bd7255c71214e9e818",
+      "release_sha256": "a4e39e9406b76156d298d9750b6630012c4b42cdbc36931082c9d1f91071f6fc"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/combine_parquet.py",
+      "public_path": "code/hfdatasetmaker-vislab4/combine_parquet.py",
+      "original_sha256": "0df609d2f882285a9d9855fdd38698b8967cf78f9f1f20102877104723fa48ef",
+      "release_sha256": "254552cf57283f8cfaaa782d015ca00783c8620f20e229f8a7f48f04dc5bb3c3"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/deepgaze_service.py",
+      "public_path": "code/hfdatasetmaker-vislab4/deepgaze_service.py",
+      "original_sha256": "d8825831ae9ae3f7de18831b09d053e42c144f54cce80d2565b64bef9223e164",
+      "release_sha256": "9501f368856e23f9bda08af016f0dad35cb10f90031e9476334d464a4c1e4fc3"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/export_deepgaze_json.py",
+      "public_path": "code/hfdatasetmaker-vislab4/export_deepgaze_json.py",
+      "original_sha256": "e2c833b03b65af8c4e6e64d1c176586bfa6f1fd0a469a3894cda35674bfb92e2",
+      "release_sha256": "75ef0ddd4319e6921d350b25c47bf32e444e796b1322797a3aec96e48a3b9d64"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/generate_comparison_grid.py",
+      "public_path": "code/hfdatasetmaker-vislab4/generate_comparison_grid.py",
+      "original_sha256": "5d3ab16843b409d11a01d47940581ba193b7d6fc3a82fcf2302265821e1d46af",
+      "release_sha256": "442c0a0ab8c0c05d52466020386427dbc12e6d8e7639ca7dd9edef88c2bb5ed3"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/generate_fixation_samples.py",
+      "public_path": "code/hfdatasetmaker-vislab4/generate_fixation_samples.py",
+      "original_sha256": "bd07be2397e8b6c70c832f76c963fa03b5a87e8a4129b0edd907b5e812bca29b",
+      "release_sha256": "8fbc6b5c66ad34893a9cf4dd7f803df05d45a7f62cb9f67b549e04f10211cdab"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/generate_metadata.py",
+      "public_path": "code/hfdatasetmaker-vislab4/generate_metadata.py",
+      "original_sha256": "3631cfbe60df35fd41486032ec6fcc53203c4e9437c6edb40d6c64123c467e28",
+      "release_sha256": "e4d390e2509ecd1eaef2e62de62088940d51139aa5f5a801b312ed5c4fc94532"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/generate_npz_all.py",
+      "public_path": "code/hfdatasetmaker-vislab4/generate_npz_all.py",
+      "original_sha256": "586ae28fa68c4c4b7501004a6f41b5efeb40759d54b1806de30b007b8b0605d4",
+      "release_sha256": "d1918e5154957fe1c853af64939ffe99f0c9872e290175ec1566455f823a44ac"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/main.py",
+      "public_path": "code/hfdatasetmaker-vislab4/main.py",
+      "original_sha256": "e06d9e1ca7036bc1a266c4827ddfdae2efb2b3a9bc355c9b883ca729a01d467a",
+      "release_sha256": "77a8851b137be7fb6040667099c9784ebce2311dc13cd4f2f325cd07e8925b48"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/main_playground.py",
+      "public_path": "code/hfdatasetmaker-vislab4/main_playground.py",
+      "original_sha256": "3007f0057e90c744151102f17743703aa3b21446e1c17abc176fb8ebcf0090f7",
+      "release_sha256": "6341fdc05e0ab79f467d7be1185b7282e376cfdb977312476d0acf3d1c2ca2ef"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/process_dataset.py",
+      "public_path": "code/hfdatasetmaker-vislab4/process_dataset.py",
+      "original_sha256": "0016761ca3d55f2b799014961aaa0fe580d59d225139d71a516ee56b05424f47",
+      "release_sha256": "b42ee377d02815e3bcbfdf985602cc30027af529eb1d073fdf3206d20b7d69ee"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/process_pipeline.py",
+      "public_path": "code/hfdatasetmaker-vislab4/process_pipeline.py",
+      "original_sha256": "388440dbb38de5b83f5334a5264ffd3a202fd2e4955106529f8156ce20cab113",
+      "release_sha256": "b2bb4b28fc084371bd988f7590d19d91ae0ae0f3fa548db82411098a821a577a"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/__init__.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "058625348442880551411a28b6ad57da498f1e6edf340c3827b4a542ab62664c"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/deepgaze_feature.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/deepgaze_feature.py",
+      "original_sha256": "e2d2d782714cbde1aeed59914dc95e7527676b6174fa4a83f20026950bbfa9b0",
+      "release_sha256": "fca803ebcc0ddcc1e89a294dc81017b88303c155c4bbe9d74b181e30ff26bf03"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/deepgaze_feature_shaw.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/deepgaze_feature_shaw.py",
+      "original_sha256": "5fe4569c5bf07d9cde97ab8427fb4b7d8d498efcc269b24e9318f091df6ebfb3",
+      "release_sha256": "5555b98528d0ed8eeba97e82527a457076f8467d744a7b499a71dc8a7bcb132a"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/encode_image.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/encode_image.py",
+      "original_sha256": "5190b46aac225d64663ae46bfc056777eb4c670e670f2eb2a7e68c071b1405e6",
+      "release_sha256": "2cdbe6702a958b084336c50a45affd603138fdc5f198684358c06d3a7ce1d675"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/generate_caption.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/generate_caption.py",
+      "original_sha256": "6d23e6aa26950eb5f288e46934a1ff028e9bdc699894971d040a479e50e5a894",
+      "release_sha256": "253e137a96d5d14ae26bacf0415542a9161269f6771655d344508ec5e9f0dca1"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/load_image.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/load_image.py",
+      "original_sha256": "93714b904c57b1d6848b42298f49af2a085b6d0a9edecbcc71fb0e3ffa35b3f6",
+      "release_sha256": "6d4901863fbd6a94fba18cf8fa5c3070ae706f2c1161e92da6f14e98523ef4c7"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/processors/resize_image.py",
+      "public_path": "code/hfdatasetmaker-vislab4/processors/resize_image.py",
+      "original_sha256": "9b059e8723b76619bb90792ca9f8640600e0893c5d3183ef9c1ef4cd12a94f25",
+      "release_sha256": "5c01944a0b2a1f3f11db3e2b8ba6bc08fff0ffbe4867f80732b68e3f101a0ea1"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/simulated_scanpath.py",
+      "public_path": "code/hfdatasetmaker-vislab4/simulated_scanpath.py",
+      "original_sha256": "ae06ea52bc2d7473dc686e84f09e245cec8a182af49d3b003c299db07aac8c50",
+      "release_sha256": "3f8ad9122b6762f8fb60bb510b5a81506033821268467dfbca82a2706e6c1c80"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/test_fusion.py",
+      "public_path": "code/hfdatasetmaker-vislab4/test_fusion.py",
+      "original_sha256": "e6138d5aa90e921efa3dce92489f40dff59c0f19bed2919632499c52f8ed24a6",
+      "release_sha256": "cfdc2f6231b239b26b31a1e393312ce2097e256000fdbbcb0014942ebd79e653"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/upload_dataset.py",
+      "public_path": "code/hfdatasetmaker-vislab4/upload_dataset.py",
+      "original_sha256": "6dd834cf52f9c1791017e4783db93f31023bed390bd57aa061b6fb6c19b3e6cf",
+      "release_sha256": "34e46c8ee9117281dcca1774cc5af4e0cd048484cf44fd1602d2ce884245ce82"
+    },
+    {
+      "archive_path": "code/hfdatasetmaker-vislab4/visualize_dataset.py",
+      "public_path": "code/hfdatasetmaker-vislab4/visualize_dataset.py",
+      "original_sha256": "e8f21871e5b5e7ce6c2cbb0a66bf809c445fa441797cd2bd7255c71214e9e818",
+      "release_sha256": "a4e39e9406b76156d298d9750b6630012c4b42cdbc36931082c9d1f91071f6fc"
+    },
+    {
+      "archive_path": "code/mapgenerator-exploratory/conditional_gan_perceptual.py",
+      "public_path": "code/mapgenerator-exploratory/conditional_gan_perceptual.py",
+      "original_sha256": "0c9d0dde396b5a4e7d6024c68d454087baa41a8fe3cdee9854b9ee980aa60d25",
+      "release_sha256": "d9262d8c1c504e61b70459b0155b7c2c3de482acfda1a18569feb2abb8f113aa"
+    },
+    {
+      "archive_path": "code/mapgenerator-exploratory/conditional_gan_wgan_gp.py",
+      "public_path": "code/mapgenerator-exploratory/conditional_gan_wgan_gp.py",
+      "original_sha256": "164d9a2294998dc4e772cf4156ee3c133d752140ff9236052eae0763493bcf0e",
+      "release_sha256": "95ce90cc3d5283125fdceba454f1cd55a6cc288d1a5fbcbf0206a98ea38afdd7"
+    },
+    {
+      "archive_path": "code/mapgenerator-exploratory/generate_labels_json.py",
+      "public_path": "code/mapgenerator-exploratory/generate_labels_json.py",
+      "original_sha256": "b1a0141306f558a454360a188e3892dc9eb013ccaf523bc819123ed7fde32793",
+      "release_sha256": "be58465d977fbb63d397eadbec469c9b763803336d0774ea2fcc764184e538bc"
+    },
+    {
+      "archive_path": "code/mapgenerator-exploratory/test_VAE_256.py",
+      "public_path": "code/mapgenerator-exploratory/test_VAE_256.py",
+      "original_sha256": "68b826e3d376162c456005d6cd9b0017d1fbf4b2bfc4bdb83cb8b1988b14df4a",
+      "release_sha256": "d5babd8e6d0790322173fb81bee8534c0376004405627d469f290c8026f2b65d"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/analysis_app.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/analysis_app.py",
+      "original_sha256": "1eec0b14bbd46dc6257cf90814fb89d618e8beabe7c029c4d457561070e574f3",
+      "release_sha256": "c284ff8564d8dae83f935d3fc8fac3803e272fca0c749123cb94f7bdc53e4e3c"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/deepgazedemo.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/deepgazedemo.py",
+      "original_sha256": "75bf119288bb4fb7b68a49fff78a7a0ce508df6f1dc9dc7df8723eb84fe9a5dd",
+      "release_sha256": "bb970a51258e3a1c23e75181e6c8342f4f0b748c60a1c19204fa157d9c76c457"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/deepgazedemo_backup.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/deepgazedemo_backup.py",
+      "original_sha256": "57e9318ae2963fc176ce3e162086ae34b8f5f35012d71e90024c7ef434772e00",
+      "release_sha256": "cf2bbe7adeefd40fd10eb3de40ebf6d972eb9b21a9b93740be36a2e161753a19"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/helper_loaders.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/helper_loaders.py",
+      "original_sha256": "7abe059db3d4bc2ea25820eaa719f0ee391ae0e07c08a0a4fa4771c0eee472c9",
+      "release_sha256": "5c2643c0522385e583c8088ceda0d7f37f2532964808d6c0621684c2de7650ab"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/interactive_deepgaze.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/interactive_deepgaze.py",
+      "original_sha256": "427f8a93892aec1112913f90c9fbbb5e037c4b70c85f28854410ee391d951261",
+      "release_sha256": "b6185dbf1aa18c9e3b2c9279fc8d9547c03d783e27d901e83dff063f9493d99e"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "original_sha256": "7c8238c5fc8d36cae58530f0d33c02946db4e954291e45dbd31f75a1d4ee345f",
+      "release_sha256": "fdca949eafb6ef85312bff262463d342a4008455c1c056f6bea74e53319d6687"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "original_sha256": "51cb81fec60865dda604aec446f16211dc9714c05e7e99726b369bca5cc14f23",
+      "release_sha256": "5fc22dc394befd5b2c0805e24396ad643bf33ae2a5714dd67d130dbd8d0a5b42"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "original_sha256": "e015673b8372ba637ed8267baf6af707210689fc5bdc132e6f1711fd1365f7fb",
+      "release_sha256": "48c1761131b104226fba735678cf5ce7832c778c4536285e0fd7d8d540963c4b"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/dataset_visualizers/visualize_stimulus_app.py",
+      "public_path": "code/scanpathanalysis-download/dataset_visualizers/visualize_stimulus_app.py",
+      "original_sha256": "3acb69240aabd7a20f278e9f052e528134bb7e84f3ad5e48597d82013727617d",
+      "release_sha256": "fe1cb5e80093648753438b4c5c338fc913c957c56a6433d5c540c81cdfdd76b6"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download/test.py",
+      "public_path": "code/scanpathanalysis-download/test.py",
+      "original_sha256": "e10a084bc4d56b35b3e3ee785bdcc7416149c50e149e9173845952dd1e106140",
+      "release_sha256": "18556a46c3d9a9ba00d5eda1617afc23662488ef98323f63165b17eb4551f943"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/analysis_app.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/analysis_app.py",
+      "original_sha256": "e3dcffbb5d29e6a458742c0eebcf29091edf16a9caba938c03991fbaf3492c13",
+      "release_sha256": "637977eb219d054ca1452f963dafaafd81329963352f9ee912e23036c228b5ff"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/deepgazedemo.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/deepgazedemo.py",
+      "original_sha256": "75bf119288bb4fb7b68a49fff78a7a0ce508df6f1dc9dc7df8723eb84fe9a5dd",
+      "release_sha256": "bb970a51258e3a1c23e75181e6c8342f4f0b748c60a1c19204fa157d9c76c457"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/deepgazedemo_backup.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/deepgazedemo_backup.py",
+      "original_sha256": "57e9318ae2963fc176ce3e162086ae34b8f5f35012d71e90024c7ef434772e00",
+      "release_sha256": "cf2bbe7adeefd40fd10eb3de40ebf6d972eb9b21a9b93740be36a2e161753a19"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/helper_loaders.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/helper_loaders.py",
+      "original_sha256": "7abe059db3d4bc2ea25820eaa719f0ee391ae0e07c08a0a4fa4771c0eee472c9",
+      "release_sha256": "5c2643c0522385e583c8088ceda0d7f37f2532964808d6c0621684c2de7650ab"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "original_sha256": "7c8238c5fc8d36cae58530f0d33c02946db4e954291e45dbd31f75a1d4ee345f",
+      "release_sha256": "fdca949eafb6ef85312bff262463d342a4008455c1c056f6bea74e53319d6687"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "original_sha256": "51cb81fec60865dda604aec446f16211dc9714c05e7e99726b369bca5cc14f23",
+      "release_sha256": "5fc22dc394befd5b2c0805e24396ad643bf33ae2a5714dd67d130dbd8d0a5b42"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "original_sha256": "e015673b8372ba637ed8267baf6af707210689fc5bdc132e6f1711fd1365f7fb",
+      "release_sha256": "48c1761131b104226fba735678cf5ce7832c778c4536285e0fd7d8d540963c4b"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/dataset_visualizers/visualize_stimulus_app.py",
+      "public_path": "code/scanpathanalysis-download-main/dataset_visualizers/visualize_stimulus_app.py",
+      "original_sha256": "3acb69240aabd7a20f278e9f052e528134bb7e84f3ad5e48597d82013727617d",
+      "release_sha256": "fe1cb5e80093648753438b4c5c338fc913c957c56a6433d5c540c81cdfdd76b6"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-download-main/test.py",
+      "public_path": "code/scanpathanalysis-download-main/test.py",
+      "original_sha256": "e10a084bc4d56b35b3e3ee785bdcc7416149c50e149e9173845952dd1e106140",
+      "release_sha256": "18556a46c3d9a9ba00d5eda1617afc23662488ef98323f63165b17eb4551f943"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/analysis_app.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/analysis_app.py",
+      "original_sha256": "1eec0b14bbd46dc6257cf90814fb89d618e8beabe7c029c4d457561070e574f3",
+      "release_sha256": "c284ff8564d8dae83f935d3fc8fac3803e272fca0c749123cb94f7bdc53e4e3c"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/deepgazedemo.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/deepgazedemo.py",
+      "original_sha256": "75bf119288bb4fb7b68a49fff78a7a0ce508df6f1dc9dc7df8723eb84fe9a5dd",
+      "release_sha256": "bb970a51258e3a1c23e75181e6c8342f4f0b748c60a1c19204fa157d9c76c457"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/deepgazedemo_backup.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/deepgazedemo_backup.py",
+      "original_sha256": "57e9318ae2963fc176ce3e162086ae34b8f5f35012d71e90024c7ef434772e00",
+      "release_sha256": "cf2bbe7adeefd40fd10eb3de40ebf6d972eb9b21a9b93740be36a2e161753a19"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/helper_loaders.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/helper_loaders.py",
+      "original_sha256": "7abe059db3d4bc2ea25820eaa719f0ee391ae0e07c08a0a4fa4771c0eee472c9",
+      "release_sha256": "5c2643c0522385e583c8088ceda0d7f37f2532964808d6c0621684c2de7650ab"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/interactive_deepgaze.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/interactive_deepgaze.py",
+      "original_sha256": "2aaa186549a05484db5d6ec4fc909f473ac88de4742a0dc8d6b45b0829846c0e",
+      "release_sha256": "d091b4a5a4c1fc6b4aedb4b9dc188b19705033addc0c2d801e41ab6c9836bb27"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "original_sha256": "7c8238c5fc8d36cae58530f0d33c02946db4e954291e45dbd31f75a1d4ee345f",
+      "release_sha256": "fdca949eafb6ef85312bff262463d342a4008455c1c056f6bea74e53319d6687"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "original_sha256": "51cb81fec60865dda604aec446f16211dc9714c05e7e99726b369bca5cc14f23",
+      "release_sha256": "5fc22dc394befd5b2c0805e24396ad643bf33ae2a5714dd67d130dbd8d0a5b42"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "original_sha256": "e015673b8372ba637ed8267baf6af707210689fc5bdc132e6f1711fd1365f7fb",
+      "release_sha256": "48c1761131b104226fba735678cf5ce7832c778c4536285e0fd7d8d540963c4b"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/process_fixations.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/process_fixations.py",
+      "original_sha256": "ca4b6eacf72f2b9cc5be0c02c6652842372839d47f9cb8910f5fe974d1f71fe2",
+      "release_sha256": "7f162149a770b759604de678a444d2ee11036e09aa79cddec9d8961bbfaf40ff"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/test_no_point.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/test_no_point.py",
+      "original_sha256": "0a755b342be8074781aa1c430f71032e0f8650c521b081ed9d791cae118d7e38",
+      "release_sha256": "e42fd854550c87fb44dd0683e06a828dbfc47d62ba77407b94b88a48a2849dc3"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/dataset_visualizers/visualize_stimulus_app.py",
+      "public_path": "code/scanpathanalysis-local/dataset_visualizers/visualize_stimulus_app.py",
+      "original_sha256": "3acb69240aabd7a20f278e9f052e528134bb7e84f3ad5e48597d82013727617d",
+      "release_sha256": "fe1cb5e80093648753438b4c5c338fc913c957c56a6433d5c540c81cdfdd76b6"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/img.py",
+      "public_path": "code/scanpathanalysis-local/img.py",
+      "original_sha256": "6e66ca5906f1326c40d8cdf69b561cc79b6a99672ea3e6ed172526ad6ca7cca6",
+      "release_sha256": "1965b2d6ff4cc2ee258507c7e25896781d4b15aa5b36bec6fb46e159c8eea4f1"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/test.py",
+      "public_path": "code/scanpathanalysis-local/test.py",
+      "original_sha256": "e10a084bc4d56b35b3e3ee785bdcc7416149c50e149e9173845952dd1e106140",
+      "release_sha256": "18556a46c3d9a9ba00d5eda1617afc23662488ef98323f63165b17eb4551f943"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-local/test_no_point.py",
+      "public_path": "code/scanpathanalysis-local/test_no_point.py",
+      "original_sha256": "0a755b342be8074781aa1c430f71032e0f8650c521b081ed9d791cae118d7e38",
+      "release_sha256": "e42fd854550c87fb44dd0683e06a828dbfc47d62ba77407b94b88a48a2849dc3"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/analysis_app.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/analysis_app.py",
+      "original_sha256": "1eec0b14bbd46dc6257cf90814fb89d618e8beabe7c029c4d457561070e574f3",
+      "release_sha256": "c284ff8564d8dae83f935d3fc8fac3803e272fca0c749123cb94f7bdc53e4e3c"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/deepgazedemo.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/deepgazedemo.py",
+      "original_sha256": "75bf119288bb4fb7b68a49fff78a7a0ce508df6f1dc9dc7df8723eb84fe9a5dd",
+      "release_sha256": "bb970a51258e3a1c23e75181e6c8342f4f0b748c60a1c19204fa157d9c76c457"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/deepgazedemo_backup.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/deepgazedemo_backup.py",
+      "original_sha256": "57e9318ae2963fc176ce3e162086ae34b8f5f35012d71e90024c7ef434772e00",
+      "release_sha256": "cf2bbe7adeefd40fd10eb3de40ebf6d972eb9b21a9b93740be36a2e161753a19"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/helper_loaders.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/helper_loaders.py",
+      "original_sha256": "7abe059db3d4bc2ea25820eaa719f0ee391ae0e07c08a0a4fa4771c0eee472c9",
+      "release_sha256": "5c2643c0522385e583c8088ceda0d7f37f2532964808d6c0621684c2de7650ab"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/interactive_deepgaze.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/interactive_deepgaze.py",
+      "original_sha256": "427f8a93892aec1112913f90c9fbbb5e037c4b70c85f28854410ee391d951261",
+      "release_sha256": "b6185dbf1aa18c9e3b2c9279fc8d9547c03d783e27d901e83dff063f9493d99e"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "original_sha256": "7c8238c5fc8d36cae58530f0d33c02946db4e954291e45dbd31f75a1d4ee345f",
+      "release_sha256": "fdca949eafb6ef85312bff262463d342a4008455c1c056f6bea74e53319d6687"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "original_sha256": "51cb81fec60865dda604aec446f16211dc9714c05e7e99726b369bca5cc14f23",
+      "release_sha256": "5fc22dc394befd5b2c0805e24396ad643bf33ae2a5714dd67d130dbd8d0a5b42"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "original_sha256": "e015673b8372ba637ed8267baf6af707210689fc5bdc132e6f1711fd1365f7fb",
+      "release_sha256": "48c1761131b104226fba735678cf5ce7832c778c4536285e0fd7d8d540963c4b"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/process_fixations.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/process_fixations.py",
+      "original_sha256": "ca4b6eacf72f2b9cc5be0c02c6652842372839d47f9cb8910f5fe974d1f71fe2",
+      "release_sha256": "7f162149a770b759604de678a444d2ee11036e09aa79cddec9d8961bbfaf40ff"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-shaw/dataset_visualizers/visualize_stimulus_app.py",
+      "public_path": "code/scanpathanalysis-shaw/dataset_visualizers/visualize_stimulus_app.py",
+      "original_sha256": "3acb69240aabd7a20f278e9f052e528134bb7e84f3ad5e48597d82013727617d",
+      "release_sha256": "fe1cb5e80093648753438b4c5c338fc913c957c56a6433d5c540c81cdfdd76b6"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/analysis_app.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/analysis_app.py",
+      "original_sha256": "1eec0b14bbd46dc6257cf90814fb89d618e8beabe7c029c4d457561070e574f3",
+      "release_sha256": "c284ff8564d8dae83f935d3fc8fac3803e272fca0c749123cb94f7bdc53e4e3c"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/deepgazedemo.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/deepgazedemo.py",
+      "original_sha256": "75bf119288bb4fb7b68a49fff78a7a0ce508df6f1dc9dc7df8723eb84fe9a5dd",
+      "release_sha256": "bb970a51258e3a1c23e75181e6c8342f4f0b748c60a1c19204fa157d9c76c457"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/deepgazedemo_backup.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/deepgazedemo_backup.py",
+      "original_sha256": "57e9318ae2963fc176ce3e162086ae34b8f5f35012d71e90024c7ef434772e00",
+      "release_sha256": "cf2bbe7adeefd40fd10eb3de40ebf6d972eb9b21a9b93740be36a2e161753a19"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/helper_loaders.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/helper_loaders.py",
+      "original_sha256": "7abe059db3d4bc2ea25820eaa719f0ee391ae0e07c08a0a4fa4771c0eee472c9",
+      "release_sha256": "5c2643c0522385e583c8088ceda0d7f37f2532964808d6c0621684c2de7650ab"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/interactive_deepgaze.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/interactive_deepgaze.py",
+      "original_sha256": "e71d28c50ff77f47b954575d2b178a370fd090ead9e8b20747ee8ea08f178666",
+      "release_sha256": "d38ac39f27077fd5634ad8ef39908e419bb60e882e26084809fb7985be0ee813"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/interactive_deepgaze_backup.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/interactive_deepgaze_backup.py",
+      "original_sha256": "427f8a93892aec1112913f90c9fbbb5e037c4b70c85f28854410ee391d951261",
+      "release_sha256": "b6185dbf1aa18c9e3b2c9279fc8d9547c03d783e27d901e83dff063f9493d99e"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/obsolete/visualize_stimulis.py",
+      "original_sha256": "7c8238c5fc8d36cae58530f0d33c02946db4e954291e45dbd31f75a1d4ee345f",
+      "release_sha256": "fdca949eafb6ef85312bff262463d342a4008455c1c056f6bea74e53319d6687"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/obsolete/visualize_stimulus_analysis_app.py",
+      "original_sha256": "51cb81fec60865dda604aec446f16211dc9714c05e7e99726b369bca5cc14f23",
+      "release_sha256": "5fc22dc394befd5b2c0805e24396ad643bf33ae2a5714dd67d130dbd8d0a5b42"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/obsolete/visualize_stimulus_fixation.py",
+      "original_sha256": "e015673b8372ba637ed8267baf6af707210689fc5bdc132e6f1711fd1365f7fb",
+      "release_sha256": "48c1761131b104226fba735678cf5ce7832c778c4536285e0fd7d8d540963c4b"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/run_idt_from_csv.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/run_idt_from_csv.py",
+      "original_sha256": "9734d2cf06d83d52b3bbf391029a9bd2ce30f608a040aaab803a80412a59782e",
+      "release_sha256": "ac5bf15ec64509ce353212ac9c464dcc208222be786807637d658ce88bc0820a"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/visualize_json.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/visualize_json.py",
+      "original_sha256": "acdf63fa968fef96ab1b0d5ae0709d283b3f5ee8853e27df17154b5a352b7dab",
+      "release_sha256": "82237ad367c1a93bcc5f76c4700c200951de4c1ee40fb725bec412c17d0f940d"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/dataset_visualizers/visualize_stimulus_app.py",
+      "public_path": "code/scanpathanalysis-vislab4/dataset_visualizers/visualize_stimulus_app.py",
+      "original_sha256": "3acb69240aabd7a20f278e9f052e528134bb7e84f3ad5e48597d82013727617d",
+      "release_sha256": "fe1cb5e80093648753438b4c5c338fc913c957c56a6433d5c540c81cdfdd76b6"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/resize_pad_images.py",
+      "public_path": "code/scanpathanalysis-vislab4/resize_pad_images.py",
+      "original_sha256": "2781579c621dbaabb0fd6de3ff5fb7e280d615e2a5dcb00dcad78d71d135bf34",
+      "release_sha256": "e006f8bc95b51255d43e964851756ac3245864c30416640894bde6c78066e8ac"
+    },
+    {
+      "archive_path": "code/scanpathanalysis-vislab4/test.py",
+      "public_path": "code/scanpathanalysis-vislab4/test.py",
+      "original_sha256": "e10a084bc4d56b35b3e3ee785bdcc7416149c50e149e9173845952dd1e106140",
+      "release_sha256": "18556a46c3d9a9ba00d5eda1617afc23662488ef98323f63165b17eb4551f943"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the code."
+type: software
+title: "Fixation-Driven Image Complexity Modeling and Control for Conditional Image Generation"
+authors:
+  - family-names: Qiu
+    given-names: Weihao
+    website: "https://github.com/QIUWEIHAO"
+  - family-names: Xiao
+    given-names: "Yiran (Shaw)"
+    affiliation: "University of California, Santa Barbara"
+    website: "https://github.com/ShawYiranXiao"
+repository-code: "https://github.com/ShawYiranXiao/fixation-guided-control"
+url: "https://github.com/ShawYiranXiao/fixation-guided-control"
+license: MIT
+keywords:
+  - fixation prediction
+  - DeepGaze
+  - ControlNet
+  - conditional image generation
+  - image complexity
